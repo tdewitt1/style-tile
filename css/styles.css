@@ -1,0 +1,118 @@
+/**Typography **/ 
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+h3:first-of-type {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	color: red;
+}
+
+/* Set Your Own Margin & Padding */
+
+
+h2 {
+	padding: .25em;
+	margin: 0em;
+}
+
+h3:first-of-type {
+	padding: .25em;
+	margin: 0;
+}
+
+p {
+	padding: .5em;
+	margin: .25em;
+	font-family: 'arvo', serif;
+	font-size: 1.05em;
+}
+
+em {
+	padding: .5em;
+	margin: .25em;
+	font-family: 'arvo', serif;
+}
+
+h4 {
+	padding: .25em;
+	margin: 0em;
+
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1 {border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+background: red;}
+.color-2{border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+background: black;}
+.color-3{border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+background: white;}
+.pattern-1{border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+    background: url("../img/bo_play_pattern.png");}
+.pattern-2{border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+ background: url("../img/knitted-netting.png");}
+.pattern-3{border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+    background: url("../img/footer_lodyas.png");
+ background: url("../img/footer_lodyas.png");}
+.imagery-1{border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+background: url("../img/renegade.png");
+background-size: contain;}
+.imagery-2{border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+background: url("../img/dragonprofile.jpg");
+background-size: contain;}
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+    background: url("../img/yinyangdragon.jpg");
+background-size: contain;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
